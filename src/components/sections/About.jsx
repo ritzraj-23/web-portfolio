@@ -5,7 +5,7 @@ export const About = () => {
     "HTML",
     "CSS",
     "JavaScript",
-    "React",
+    "ReactJs",
     "TailwindCSS",
     "BootstrapCSS",
   ];

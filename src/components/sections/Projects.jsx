@@ -14,12 +14,12 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">Weather Tracker</h3>
+              <h3 className="text-xl font-bold mb-2">Track Weather</h3>
               <p className="text-gray-400 mb-4">
               Get quick and easy weather updates with this app.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Html", "CSS", "Javascript", "React"].map((tech, key) => (
+                {["Html", "CSS", "JavaScript", "React js","Material UI"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -33,7 +33,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://ritzraj-23.github.io/track-weather/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -48,12 +48,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Expense Tracker App</h3>
+              <h3 className="text-xl font-bold mb-2">TaskMate</h3>
               <p className="text-gray-400 mb-4">
-              Track your spending easily with this simple app
+              A simple, intuitive task management app to organize your to-dos efficiently.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Html", "Tailwind CSS", "React js"].map((tech, key) => (
+                {["Html","CSS","JavaScript", "React js","TailwindCSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -70,7 +70,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://ritzraj-23.github.io/taskmate/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -86,12 +86,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Stream music</h3>
+              <h3 className="text-xl font-bold mb-2">Emplyo</h3>
               <p className="text-gray-400 mb-4">
-              Enjoy music streaming like Spotify with this app—create playlists, play songs, and explore a vast library
+              Employee management app designed to streamline HR tasks & track employee data.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Html", "JavaScript", "Bootstrap CSS"].map(
+                {["Html","CSS","JavaScript","React js","TailwindCSS"].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -110,7 +110,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://ritzraj-23.github.io/Emplyo/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -126,12 +126,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Simon's Says Game</h3>
+              <h3 className="text-xl font-bold mb-2">Cinemate</h3>
               <p className="text-gray-400 mb-4">
-              Follow Simon's pattern of colors and sounds in this fun memory game.
+              Movie browsing app that lets you discover & explore films from various genres. 
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Html", "CSS", "Javascript"].map((tech, key) => (
+                {["Html", "CSS", "Javascript","React js","FlowbiteCSS","TailwindCSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -148,7 +148,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
-                  href="#"
+                  href="https://ritzraj-23.github.io/Cine-Mate/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
