@@ -148,7 +148,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
-                  href="https://ritzraj-23.github.io/Cine-Mate/"
+                  href="https://cinematemoviebrowse.netlify.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
